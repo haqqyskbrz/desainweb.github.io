@@ -1,0 +1,220 @@
+* {
+  text-decoration: none;
+  margin: 0px;
+  padding: 0px;
+}
+
+body {
+  margin: 0px;
+  padding: 0px;
+  font-family: "Courier New", Courier, monospace;
+}
+
+.bar_menu {
+  width: 1100px;
+  margin: auto;
+  position: relative;
+}
+
+.logo a {
+  font-size: 40px;
+  font-weight: 800;
+  float: left;
+  font-family: "Courier New", Courier, monospace;
+  color: crimson;
+}
+
+.menu {
+  float: right;
+}
+
+nav {
+  width: 100%;
+  margin: auto;
+  display: flex;
+  line-height: 80px;
+  position: sticky;
+  position: -webkit-sticky;
+  top: 0;
+  background: #ffffff;
+  z-index: 1;
+  border-bottom: hidden;
+  margin-bottom: 15px;
+}
+
+nav ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+}
+
+nav ul li {
+  float: left;
+}
+
+nav ul li a {
+  color: black;
+  font-weight: bold;
+  text-align: center;
+  padding: 0px 16px 0px 16px;
+  text-decoration: none;
+}
+
+nav ul li a:hover {
+  text-decoration: underline;
+}
+
+section {
+  margin: auto;
+  display: flex;
+  margin-bottom: 50px;
+}
+
+.kolom1 {
+  margin-top: 50px;
+  margin-bottom: 50px;
+}
+
+.kolom1 .deskripsi {
+  font-family: "Times New Roman", Times, serif;
+  font-size: 20px;
+  font-weight: bold;
+  color: #feb139;
+  text-decoration: underline;
+}
+
+.kolom2 .deskripsi {
+  font-family: "Times New Roman", Times, serif;
+  font-size: 20px;
+  font-weight: bold;
+  color: #feb139;
+  text-decoration: underline;
+}
+
+.kolom3 .deskripsi {
+  font-family: "Times New Roman", Times, serif;
+  font-size: 20px;
+  font-weight: bold;
+  color: #feb139;
+  text-decoration: underline;
+}
+
+.kolom4 .deskripsi {
+  font-family: "Times New Roman", Times, serif;
+  font-size: 20px;
+  font-weight: bold;
+  color: #feb139;
+  text-decoration: underline;
+}
+
+h1 {
+  font-family: "Times New Roman", Times, serif;
+  font-weight: 800;
+  font-size: 45px;
+  margin-bottom: 20px;
+  color: #feb139;
+  width: 100%;
+  line-height: 50px;
+}
+
+a.tbl-reg {
+  background: #f55353;
+  border-radius: 10px;
+  font-weight: bold;
+  margin-top: 20px;
+  padding: 15px 20px 15px 20px;
+  color: #ffffff;
+  cursor: pointer;
+  line-height: 50px;
+}
+
+a.tbl-reg:hover {
+  background: #cc7048;
+  text-decoration: none;
+}
+
+a.tbl-lanjut {
+  background: #f55353;
+  border-radius: 15px;
+  font-weight: bold;
+  margin-top: 20px;
+  padding: 15px 20px 15px 20px;
+  color: #ffffff;
+  cursor: pointer;
+  line-height: 50px;
+}
+
+a.tbl-lanjut:hover {
+  background: #cc7048;
+  text-decoration: none;
+}
+
+p {
+  margin: 10px 0px 10px 0px;
+  padding: 10px 0px 10px 0px;
+  text-align: justify;
+}
+
+@media screen and (max-width: 991.98) {
+  .bar_menu {
+    width: 90%;
+  }
+
+  .logo {
+    display: block;
+    width: 100%;
+    text-align: center;
+  }
+
+  nav .menu {
+    width: 100%;
+    margin: 0;
+  }
+}
+
+h2 {
+  font-family: "Times New Roman", Times, serif;
+  font-weight: 800;
+  font-size: 38px;
+  margin-bottom: 20px;
+  color: #feb139;
+  width: 100%;
+  line-height: 50px;
+}
+
+#home {
+  padding-top: 4rem;
+}
+
+#bimbingan {
+  padding-top: 4rem;
+}
+
+#toturial {
+  padding-top: 4rem;
+}
+
+#TIM {
+  padding-top: 8rem;
+}
+
+footer {
+  text-align: center;
+  background: #7fb5ff;
+  padding-bottom: 15px;
+  border-radius: 5px;
+}
+
+footer p {
+  text-align: center;
+  font-family: "Times New Roman", Times, serif;
+}
+
+.login {
+  padding: 1em;
+  margin: 2em auto;
+  width: 17em;
+  background: #fff;
+  border-radius: 3px;
+}
